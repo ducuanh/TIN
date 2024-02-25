@@ -1,0 +1,46 @@
+.video-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+video {
+    width: 50%;
+}
+
+dialog {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: relative;
+}
+
+.modal-content {
+    padding-top: 20px;
+}
+
+.close-button {
+    background-color: transparent;
+    color: #333;
+    border: none;
+    font-size: 24px;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.close-button span {
+    display: block;
+    width: 20px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+}
+
+.close-button:hover {
+    color: #ff0000;
+    background-color: transparent;
+}
